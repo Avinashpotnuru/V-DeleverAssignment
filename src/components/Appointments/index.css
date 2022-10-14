@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+
+  .mainbg{
+   
+    height: 40vh;
+
+  }
+  
+  .slick-slide > div {
+   
+    
+    margin: 0 10px;
+  }
+  .slick-list {
+    margin: 0 -10px;
+    
+  }
+  
+  .card{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+    border: 1px solid #fff;
+    background-color: rgb(199, 201, 194);
+    border-radius: 8px;
+    height: 180px;
+    width: 600px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   }
+  .logo{
+    height: 100px;
+    width: 100px;
+    margin-top: 40px;
+    border-radius: 20px;
+  
+  }
+  .headingg{
+    margin-left:1px;
+   
+    color: black;
+    font-weight:bold;
+   
+  }
+  p{
+    color:rgb(233, 98, 98);
+  }
+  .details{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 10px;
+  
+    align-items:flex-start;
+    flex-direction: column;
+    max-width: 250px;
+    
+   
+  }
+  .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold
+    
+   ;
+   
+  }
+  button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    border-radius: 10px;
+    
+    
+  }
+  button:hover{
+    background-color: rgb(61, 204, 244);
+    
+  }
+  span{
+    margin-right:4px ;
+  }
+  .logo:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
+  }
+  .doc-para{
+    color: gray;
+    margin-right: 25px;
+   
+  }
+ button{
+  border-radius: 4px;
+  background-color: #f2b07b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  transition: all 0.5s;
+  cursor: pointer;
+ }
+ .button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}

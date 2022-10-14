@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+ .discountblock{
+    height: 30vh;
+ }
+  
+
+.discountcard{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    border: 1px solid #fff;
+    background-image: linear-gradient(orange,rgb(237, 74, 10));
+    border-radius: 8px;
+    height: 160px;
+    width: 500px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   }
+   .offerblock{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+   }
+   .img-logo{
+    height: 80px;
+    width: 80px;
+   }
+   h2{
+   
+    margin-bottom: 10px;
+   }
+   .img-logo:hover{
+    height: 100px;
+    width: 100px;
+    border: 3px solid red;
+    border-radius: 10px;
+   
+   }
+   .dis-head{
+    margin-top: 10px;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+   }
