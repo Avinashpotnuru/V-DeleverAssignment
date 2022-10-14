@@ -29,7 +29,7 @@ function SampleNextArrow(props) {
 
 
 
-const Discount=()=>{
+const Icon=()=>{
     const settings = {
         nextArrow: <SampleNextArrow />,
        prevArrow: <SamplePrevArrow />,
@@ -75,18 +75,19 @@ const Discount=()=>{
       };
     
     return(
-        <div className="discountblock">
-        <h2>Discounts</h2>
+        <div className="container">
+            <div className="row">
+            <div className="discountblock col-12">
+        <h2 className="col-12">Discounts</h2>
           <Slider {...settings}>
        
        {discount.map((item) => (
         
-          <div key={item.id} className='discountcard'> 
+          <div key={item.id} className='discountcard card'> 
          <h5 className="dis-head">{item.title}</h5>
-         <div className="offerblock">
+         <div className="offerblock ">
             <img className="img-logo" src={item.linkImg} alt={`img-${item.id}`}/>
             <button>{item.discount}</button>
-
          </div>
         
         
@@ -101,9 +102,14 @@ const Discount=()=>{
          ))}
  </Slider>
         </div>
+
+            </div>
+
+        </div>
+       
       
        
 
     )
 }
-export default Discount
+export default Icon

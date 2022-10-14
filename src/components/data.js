@@ -64,7 +64,7 @@ export const dataDigitalBestSeller = [
       title: 'Dr.Avinash',
       price: '$59.99',
       time:"2:00 pm",
-      date:"Aug 2",
+      date:"Aug 20",
       category: 'Plastic Surgeon',
       linkImg:
         'https://www.apolloclinic.com/assets/images/doctors/2243_DrAvinash.jpg',

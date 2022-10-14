@@ -13,7 +13,7 @@
 }
 .bg-1-color{
     background-color: #ffcccc;
-    height:10vh;
+   
     padding:10px;
     margin:12px;
     display: flex;
@@ -37,12 +37,14 @@
 
 .img1-block{
     border-radius: 10px;
+    height: 90%;
+    width: 140px;
    
 }
 
 .div-block-container{
     background-color: #e6e6e6;
-    height:10vh;
+   height: 10vh;
     margin:12px;
     border-radius:10px;
     display: flex;

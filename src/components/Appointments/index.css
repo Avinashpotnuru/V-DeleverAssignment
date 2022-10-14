@@ -3,10 +3,10 @@
 
 
   .mainbg{
+    padding: 1px;
+    margin-bottom: 40px;
    
-    height: 40vh;
-
-  }
+   }
   
   .slick-slide > div {
    
@@ -26,18 +26,25 @@
     border: 1px solid #fff;
     background-color: rgb(199, 201, 194);
     border-radius: 8px;
-    height: 180px;
-    width: 600px;
+    min-height: 200px;
+    max-width: 600px; 
     padding: 4px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    
+    flex-wrap: wrap;
+    flex-shrink: inherit;
    }
-  .logo{
-    height: 100px;
-    width: 100px;
+  .logoo{
+    height: 90px;
+    width: 90px;
     margin-top: 40px;
     border-radius: 20px;
   
+  }
+  .logoo:hover{
+    border: 3px solid red;
+    border-radius: 10px;
+    height: 120px;
+    width: 120px;
   }
   .headingg{
     margin-left:1px;
@@ -50,6 +57,7 @@
     color:rgb(233, 98, 98);
   }
   .details{
+    
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -58,27 +66,37 @@
     align-items:flex-start;
     flex-direction: column;
     max-width: 250px;
+   
+
     
    
   }
-  .button{
+  .buttons{
+    
+    
+   
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 10px;
-    font-weight: bold
+   
+   
     
-   ;
+    font-weight: bold;
+    
+    
    
   }
   button{
+    flex-wrap: wrap;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    min-width: auto;
+    min-height: auto;
 
-    margin-left: 20px;
+    /* margin-left: 20px; */
     background-color: black;
     color: #fff;
     border-radius: 10px;
@@ -92,12 +110,7 @@
   span{
     margin-right:4px ;
   }
-  .logo:hover{
-    border: 3px solid red;
-    border-radius: 10px;
-    height: 120px;
-    width: 120px;
-  }
+  
   .doc-para{
     color: gray;
     margin-right: 25px;
