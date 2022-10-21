@@ -1,20 +1,29 @@
 import React  from 'react';
 import "./App.css"
-import Header from './components/Header';
-import Appointments from './components/Appointments';
-import Discount from './components/Discounts';
-import Service from './components/Service';
-import Icons from './components/Icons';
+
+import {Route, Routes} from "react-router-dom"
+import Home from './components/Home';
+import Appointment from './components/Pages/appointments';
+import Chat from './components/Pages/chat';
+
+import Labs from './components/Pages/labs';
+import MyAccount from './components/Pages/myaccount';
+
 
 
 const App=()=>{
   return(
     <div className='App'>
-      <Header/>
-      <Service/>
-      <Appointments/>
-      <Discount/>
-      <Icons/>
+    
+      <Routes>
+        <Route path="/" exact element={<Home/>}/>
+        <Route path="/appointment" exact element={<Appointment/>}/>
+        <Route path="/chat" exact element={< Chat/>}/>
+        <Route path="/lab" exact element={<Labs/>}/>
+        <Route path="/myaccount" exact element={<MyAccount/>}/>
+
+    </Routes>
+      
     </div>
 
   )

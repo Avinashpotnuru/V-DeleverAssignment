@@ -1,0 +1,217 @@
+.pages{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: aliceblue;
+}
+.appointmentblock{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+ 
+    background-color: rgb(212, 231, 247);
+    overflow-y: auto;
+    
+    
+}
+.date{
+    color:red;
+}
+form{
+    background-color: aquamarine;
+    padding: 20px;
+    box-shadow: 4px 4px 4px 2px;
+    margin-top: 30px;
+    
+}
+form input{
+    background-color: rgb(162, 162, 236);
+}
+form p{
+   font-weight: bold;
+   color: black;
+   margin-top: 5px;
+}
+textarea{
+    width: 100%;
+    background-color: bisque;
+}
+.appointmentblock ul{
+    display: flex;
+    margin-top: 20px;
+    
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    width: 80%;
+    flex-wrap: wrap;
+    
+   
+}
+.appointmentblock ul li{
+    background-color: aliceblue;
+  
+   margin-left: 15px;
+   
+   display: flex;
+   flex-direction: column;
+   margin: 10px;
+   box-shadow: 2px 2px 2px 2px;
+  justify-content: center;
+   align-items: center;
+   
+   padding: 10px;
+  
+
+
+}
+
+
+/* labs section */
+.lab-con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f97e46;
+    min-height: 100vh;
+  }
+  .lab-img {
+    height: 220px;
+    width: 220px;
+    margin-right: 12px;
+  }
+  .lab-img:hover {
+    height: 240px;
+    width: 240px;
+    border-radius: 20px;
+    border: 4px solid rgb(47, 0, 255);
+   
+  }
+
+
+  .lab-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .experiment-list {
+    list-style-type: none;
+    padding-left: 0px;
+  }
+  .lab-title {
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Roboto';
+  }
+  .lab-title:hover {
+    text-decoration:underline ;
+    font-weight: bold;
+    
+  }
+  .lab-description {
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Roboto';
+    margin-top: 7px;
+  }
+  @media screen and (max-width: 767px) {
+    .lab-img {
+      height: 65px;
+      width: 65px;
+      margin-right: 6px;
+    }
+    .lab-title {
+      font-size: 12px;
+    }
+    .lab-description {
+      font-size: 8px;
+    }
+  }
+
+  /* My ACCOUNT CSS */
+
+  .person-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70%;
+    width: 70%;
+    box-shadow: 3px 3px 4px;
+   
+    background-color: aquamarine;
+  }
+  .p-con {
+    background-color: #dbedf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    width: 100vw;
+  }
+  .person-img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50px;
+  }
+  .person-name {
+    color: #100c0c;
+    font-size: 43px;
+    
+    margin: 12px;
+    font-weight: bold;
+  }
+  
+  .email {
+    color: #121010;
+    font-size: 23px;
+    font-family: 'Roboto';
+    margin: 12px;
+    font-weight: bold;
+  }
+  
+  .age {
+    color: #121111;
+    font-weight: bold;
+    font-family: 'Roboto';
+    margin: 12px;
+    font-size: 23px;
+  }
+  @media screen and (max-width: 767px) {
+    .person-img {
+      height: 75px;
+      width: 75px;
+      border-radius: 30px;
+    }
+  }
+
+  /* Chat section */
+
+.chat-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}  
+.chat-section form{
+    background-color: #dbedf8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
