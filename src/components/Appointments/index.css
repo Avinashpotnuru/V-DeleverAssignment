@@ -5,6 +5,7 @@
   .mainbg{
     padding: 1px;
     margin-bottom: 40px;
+    width: 100%;
    
    }
   
@@ -79,6 +80,7 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    width: 100%;
    
    
     
@@ -94,8 +96,8 @@
     justify-content: center;
     align-items: center;
     min-width: auto;
-    min-height: auto;
-
+    min-height:auto;
+    
     /* margin-left: 20px; */
     background-color: black;
     color: #fff;
@@ -149,4 +151,9 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+.icon-button{
+  max-width: 120px;
+  min-height: 30px;
+ 
 }
