@@ -25,7 +25,8 @@ import {BsFillPersonFill} from "react-icons/bs"
 const Icons=()=>{
     
     return(
-        <>  <div className="container">
+        <>  
+        <div className="container">
         <div className="row">
         <div className="button-container col-12 mt-3">
             <Link to="/"><button className="btn"><>< MdOutlineHome size={25} /></> </button></Link>
@@ -35,15 +36,7 @@ const Icons=()=>{
             <Link to="/myaccount"><button className="btn"><>< BsFillPersonFill size={25}/></></button></Link>
            
           
-          
-        
-          
-    
- 
-   
- 
-   
-</div>
+          </div>
 
         </div>
      

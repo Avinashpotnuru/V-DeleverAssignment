@@ -1,6 +1,11 @@
-.App{
+.main-App{
   
-  padding: 0px;
-  margin: 0%;
+ 
+  background-color: antiquewhite;
   
+  
+}
+body{
+  margin: 0px;
+  width: 100%;
 }

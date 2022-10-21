@@ -29,13 +29,16 @@
 }
 
 .button-container{
-    height:12vh;
+   
     /* background-image: linear-gradient(rgb(244, 190, 190),pink); */
     
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+    background-color: antiquewhite;
 }
 .btn {
     background-color: #ddd;

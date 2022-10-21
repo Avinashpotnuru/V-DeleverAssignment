@@ -9,13 +9,23 @@ import Icons from '../Icons';
 
 const Home=()=>{
   return(
-    <div className='App'>
-      <Header/>
-      <Service/>
-      <Appointments/>
-      <Discount/>
-      <Icons/>
+    <div className='container'>
+        
+      <div className='row'>
+      <div className='home-App col-12'>
+        <Header/>
+        <Service/>
+        <Appointments/>
+        <Discount/>
+        <Icons/>
     </div>
+        
+
+
+      </div>
+
+    </div>
+    
 
   )
 }

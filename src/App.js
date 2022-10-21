@@ -13,18 +13,25 @@ import MyAccount from './components/Pages/myaccount';
 
 const App=()=>{
   return(
-    <div className='App'>
+    <div className=''>
+      <div className='row'>
+      <div className='main-App col-12'>
     
-      <Routes>
-        <Route path="/" exact element={<Home/>}/>
-        <Route path="/appointment" exact element={<Appointment/>}/>
-        <Route path="/chat" exact element={< Chat/>}/>
-        <Route path="/lab" exact element={<Labs/>}/>
-        <Route path="/myaccount" exact element={<MyAccount/>}/>
+    <Routes>
+      <Route path="/" exact element={<Home/>}/>
+      <Route path="/appointment" exact element={<Appointment/>}/>
+      <Route path="/chat" exact element={< Chat/>}/>
+      <Route path="/lab" exact element={<Labs/>}/>
+      <Route path="/myaccount" exact element={<MyAccount/>}/>
 
-    </Routes>
-      
+  </Routes>
+    
+  </div>
+
+      </div>
+
     </div>
+   
 
   )
 }
